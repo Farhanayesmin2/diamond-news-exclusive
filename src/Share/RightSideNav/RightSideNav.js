@@ -3,6 +3,7 @@ import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import ListGroup from 'react-bootstrap/ListGroup';
 import { FaGoogle, FaGithub,FaFacebook,FaYoutube,FaWhatsapp,FaTwitter,FaLinkedin,FaUnlock,FaDiscord,FaAlignJustify} from "react-icons/fa";
+import BrandCarousels from '../BrandCarousels/BrandCarousels';
 const RightSideNav = () => {
     return (
         <div>
@@ -24,6 +25,9 @@ const RightSideNav = () => {
       <ListGroup.Item className='mb-2'  variant="dark">  <FaAlignJustify></FaAlignJustify> Terms and Condition</ListGroup.Item>
      
     </ListGroup>
+            </div>
+            <div className='mt-5'>
+                <BrandCarousels></BrandCarousels>
             </div>
         </div>
     );
