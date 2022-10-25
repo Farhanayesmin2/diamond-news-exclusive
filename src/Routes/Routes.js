@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import Main from "../Layout/Main"
 import Category from "../Pages/Category/Category";
 import Home from "../Pages/Home/Home";
+import News from "../Pages/News/News";
 export const router = createBrowserRouter([
   
     {
@@ -14,8 +15,12 @@ export const router = createBrowserRouter([
             },
             {
                 path: '/category/:id',
-                element: <Category></Category>
+                element: <Category></Category>,
             },
+            {
+                path: '/news/:id',
+                element: <News></News>,
+            }
         ]
     }
 
