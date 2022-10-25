@@ -7,7 +7,7 @@ import LeftSideNav from '../LeftSideNav/LeftSideNav';
 const Header = () => {
     return (
         <div>
-            <Navbar className="mb-4" collapseOnSelect expand="lg" bg="dark" variant="dark">
+            <Navbar className="mb-4 text-light" collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
         <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
